@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+body {
+    margin: 10;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+}
+
+footer {
+    background-color: #89bddd;
+    border-color: #89bddd;
+}
+
+/*-------------------------------- navbar */
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    color: #fafafa;
+    margin: 0 20px;
+}
+
+.nav-item {
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 20px;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+.navbar {
+    color: #aaa;
+    background-color: #8aa0aa;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/*---------------------------------Landing ----*/
+
+.landing-container {
+    height: 100VH;
+    background: url("../images/notorious_portdouglas_xsm_crop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.landing-subheading {
+    padding: 0 0px;
+    text-align: left;
+}
+
+.landing {
+  position: fixed; 
+}
+
+/*--------------------------------Jumbotron*/
+
+.jumbotron-landing {
+    transform: translateY(-100%);
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fafafa;
+}
+
+.jumbotron-header {
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin: 50px;
+    text-transform: capitalize;
+    padding: 50px;
+}
+
+@media (min-width: 576px) {
+    .landing-container {
+        background: url("../images/notorious_portdouglas_sm_crop.jpg") no-repeat center center fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    .landing-container {
+        background: url("../images/notorious_portdouglas_md_crop.jpg") no-repeat center center fixed;
+    }
+}
+
+@media (min-width: 1030px) {
+    .landing-container {
+        background: url("../images/notorious_portdouglas.PNG") no-repeat center center fixed;
+    }
+}
+
+
+/*--------------------------------------- contact form*/
+
+.contact-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #3498db;
+}
+
+.col .btn {
+    padding: 0 15;
+}
+
+@media(max-width: 991px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    .contact-heading {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*-----------------------------------Buttons*/
+
+.btn--learnmore {
+    font-weight: bold;
+    font-size: small;
+    border-radius: 23px;
+    width: 180px;
+}
+
+
+.btn--learnmore:hover,
+.but--learnmore:active,
+.btn--learnmore:focus,
+.btn--learnmore:active:focus {
+    background-color: #89bddd;
+    border-color: #89bddd;
+}
+
+/*-----------------------------------Footer*/
+.social-links {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.list-inline-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.about-container {
+    margin: 15px;
+}
+
+.article-container {
+    margin: 15px;
+}
+}
