@@ -68,7 +68,6 @@ h2 {
     .landing-container {
         background: url("../images/notorious_portdouglas_sm_crop.jpg") no-repeat center right fixed;
     }
-    .
 }
 
 @media (min-width: 768px) {
@@ -122,12 +121,13 @@ h2 {
 .contact-heading {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
+    padding-top: 30px;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .center-form {
-    padding-top: 10px;
+    padding: 0 10px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -139,8 +139,16 @@ button[type="submit"] {
     background-color: #3498db;
 }
 
-.col .btn {
-    padding: 0 15;
+.btn {
+    padding: 5px;
+}
+
+.form-control {
+    margin: 10px 0;
+}
+
+.share {
+    margin: 25px 0;
 }
 
 @media(max-width: 991px) {
@@ -223,6 +231,49 @@ button[type="submit"] {
 .article-container {
     margin: 30px;
 }
+
+/*-----------------------------------Open Days*/
+.opendays {
+    
+}
+
+/*-----------------------------------Gallery*/
+
+.gallery-container {
+    padding: 20px 0;
+}
+.image-padding {
+    padding: 5px;
+}
+
+.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
 
 
 /*-----------------------------------Buttons*/
